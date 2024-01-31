@@ -10,5 +10,5 @@ class SampleService @Inject constructor(private val api: SampleApi) {
         val body = call.body()
 
         return body ?: emptyList()
-    }
+    }//
 }
