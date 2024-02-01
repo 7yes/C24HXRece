@@ -11,4 +11,26 @@
         android:id="@+id/rvList"
          />
 
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/ivError"
+        android:src="@drawable/error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btnReload"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="@string/reload"/>
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+
 </FrameLayout>
